@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potpolio Web by - Er Abinash</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e2779d170.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navigation">
+                <h1>Port<span class="logo">Folio</span></h1>
+                <!-- <img src="potimage/images/logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Potfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>                  
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <img class="background2" src="./potimage/background2.jpg">
+            <div class="header-text">
+                <p>I'm a Future Full_Stack Devloper</p>
+                <h1>Hi, I'm <span>Abinash</span><br>Nayak From Bhubneswer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about---------- -- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./potimage/IMG_20230419_080134_271.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am creating my own portfolio website using the Front-End development.
+                        (HTML,CSS and JS)
+                        <br/>
+                        I am a Fronted Devloper with fresher. My expertise is to create and devllope a
+                        single page web application, and many more...</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Single Page WebApplication user interfaces</li>
+                            <li><span>Web Development</span><br>HTML,CSS,JS,Bootstrap,ReactJS,MySql</li>
+                            <li><span>E-comers Web Devlopment</span><br>Building E-comers website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Internship at Skill-lync Bangaluru(Ongoing)</li>
+                            <li><span>2020-2022</span><br>Technical Executive at Apollo Ltd.</li>
+                            <li><span>2017-2019</span><br>Electrical Engg at Bijlee Constrcction.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Full-Stack Training at Skill-lync(Ongoing)</li>
+                            <li><span>2024</span><br>B.Tech (EEE) from REC Bhubneswer.</li>
+                            <li><span>2015</span><br>Diploma (EE) from BEST Bhadrak.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------servise-------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Programing Journy</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front-End Devlopment</h2>
+                        <p>I have Sucessfully complited frontend Devlopment in Skill-lync, now i have
+                            Good knowledge of HTML,CSS,JAVASCRIP,Bootstrap & ReactJs.
+                            Ihave did 6/7 project like Github frofile, Shopping cart, Expense Tracker etc.</p>
+                        <a href="https://github.com/Anmithun/GitHubProfile">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Full-Stack Devlopment<br/>(Ongoing)</h2>
+                        <p>I have done Front-End part now backend part going on now continuing
+                            Everything about DataBase MySql with MongoDB.
+                            After complite database iam move forward to java & java spring boot.</p>
+                        <a href="https://github.com/Anmithun/GitHubProfile">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Everything about Database</h2>
+                        <p>I have started database i have done 2 chalanges as of now MySql is running .
+                            after complited MySql i will start MongoDB.</p>
+                        <a href="https://github.com/Anmithun/GitHubProfile">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------portfolio------------------- -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Last Projets :</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./potimage/Screenshot (21).png">
+                        <div class="layer">
+                            <h4>Expense Tracker</h4>
+                            <p>This is the project to create asingle app using react basics to track
+                                daily expenses for users. The tracker has three dimension Reaceving
+                                and validating user input in the first stap. Listing out entered data
+                                is the next step to data entry. And visuallzing the data is the third
+                                and advanceed step The project touches the basis of CRUD operation and
+                                tuch base on using third-party libs for advance use case like visualization.!
+
+                                Download it from play store.</p>
+                            <a href="https://github.com/Anmithun/GitHubProfile"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./potimage/Screenshot (22).png">
+                        <div class="layer">
+                            <h3>Shopping Cart Application</h3>
+                            <p>The app basically to demonstrate the real-life use case of e-commerse
+                                domain The App should be able to list various product with detaills
+                                and provide an ability to manor down the list based on their requirment
+                                   Finally needed product should be added to basket for checkout.</p>
+                            <a href="https://github.com/Anmithun/GitHubProfile"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./potimage/Screenshot (24).png">
+                        <div class="layer">
+                            <h3>Movie App</h3>
+                            <p>This is the project to create asingle app using react basics to search
+                                Entertetment movies for users and user isely get all hit moves as per,
+                                rating.
+                                Download it from play store.</p>
+                            <a href="https://anmithun.github.io/demo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Anmithun/GitHubProfile" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- ---------contact------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> abinashnayak2030@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 7873341154</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100048757630310&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/ABINASHNAY81636/status/1681549917850943488?s=20"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/nyk.an2030?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/abinash-nayak-15473417a"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="./potimage/Abinash ITcv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msd"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright2023@ Nayak.Made with <i class="fa-solid fa-heart"></i> by Easy</p>
+
+            </div>
+        </div>
+
+     
+        <script src="./script.js"></script>
+           
+</body>
+
+</html>
